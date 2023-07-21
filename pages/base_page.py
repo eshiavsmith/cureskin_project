@@ -2,8 +2,8 @@ from selenium.webdriver.support import expected_conditions as EC
 class Page:
     def __init__(self, driver):
         self.driver = driver
-        self.wait = WebDriverWait(self.driver, 15)
-        self.base_url = 'https://www.amazon.com/'
+        #self.wait = WebDriverWait(self.driver, 15)
+        self.base_url = 'https://shop.cureskin.com/search?q=cure'
 
     def open_url(self, url=''):
         print(f'Opening URL: {url}')
@@ -46,5 +46,5 @@ class Page:
         assert expected_text in actual_text, \
             f'Checking by locator {locator}.  Expected {expected_text}, but got {actual_text}'
 
-  def verify_url_contains_query(self, query):
+    def verify_url_contains_query(self, query):
         self.wait.until(EC.url_contains(query))
