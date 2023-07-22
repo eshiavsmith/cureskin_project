@@ -1,0 +1,99 @@
+1690046649566	geckodriver	INFO	Listening on 127.0.0.1:52639
+1690046649710	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/nm/z2rl_wdx22x3t5ff64vzzdnr0000gn/T/rust_mozprofilevpebnT"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1690046661458	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+1690046661755	Marionette	INFO	Listening on port 52706
+WebDriver BiDi listening on ws://127.0.0.1:52640
+Read port: 52706
+1690046661889	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:52640/devtools/browser/cb99b951-cf82-491d-82bf-1ca020f1f18b
+1690046663743	Marionette	INFO	Stopped listening on port 52706
+JavaScript error: resource://services-settings/Utils.sys.mjs, line 229: TypeError: NetworkError: Network request failed
+1690046711689	geckodriver	INFO	Listening on 127.0.0.1:52956
+1690046712191	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/nm/z2rl_wdx22x3t5ff64vzzdnr0000gn/T/rust_mozprofileefZvI8"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1690046712583	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+1690046712738	Marionette	INFO	Listening on port 52968
+WebDriver BiDi listening on ws://127.0.0.1:52957
+Read port: 52968
+1690046712915	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:52957/devtools/browser/62d8f077-ad05-4049-ba9a-ee78b60dfb3a
+JavaScript error: https://shop.cureskin.com/cdn/shop/t/18/assets/facets.js?v=7902196371189045711670822363, line 1: SyntaxError: redeclaration of let FacetFiltersForm
+1690046716014	Marionette	INFO	Stopped listening on port 52968
+JavaScript error: resource://services-settings/Utils.sys.mjs, line 229: TypeError: NetworkError: Network request failed
+1690047094630	geckodriver	INFO	Listening on 127.0.0.1:55549
+1690047095129	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/nm/z2rl_wdx22x3t5ff64vzzdnr0000gn/T/rust_mozprofile2pL7iM"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1690047095657	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+1690047095835	Marionette	INFO	Listening on port 55562
+WebDriver BiDi listening on ws://127.0.0.1:55550
+Read port: 55562
+1690047095887	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:55550/devtools/browser/219bc08a-f83e-4552-824c-250051425647
+JavaScript error: https://shop.cureskin.com/cdn/shop/t/18/assets/facets.js?v=7902196371189045711670822363, line 1: SyntaxError: redeclaration of let FacetFiltersForm
+1690047099162	Marionette	INFO	Stopped listening on port 55562
+JavaScript error: resource://gre/modules/UrlClassifierListManager.sys.mjs, line 720: TypeError: this.tablesData[table] is undefined
+JavaScript error: resource://services-settings/Utils.sys.mjs, line 229: TypeError: NetworkError: Network request failed
+1690047121885	geckodriver	INFO	Listening on 127.0.0.1:55752
+1690047122390	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/nm/z2rl_wdx22x3t5ff64vzzdnr0000gn/T/rust_mozprofilecOzxwE"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1690047122781	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+1690047122928	Marionette	INFO	Listening on port 55764
+WebDriver BiDi listening on ws://127.0.0.1:55753
+Read port: 55764
+1690047123102	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:55753/devtools/browser/e48c6db5-af95-4f91-93ed-b9035b594fb1
+JavaScript error: https://shop.cureskin.com/cdn/shop/t/18/assets/facets.js?v=7902196371189045711670822363, line 1: SyntaxError: redeclaration of let FacetFiltersForm
+1690047126137	Marionette	INFO	Stopped listening on port 55764
+JavaScript error: resource://gre/modules/UrlClassifierListManager.sys.mjs, line 720: TypeError: this.tablesData[table] is undefined
+JavaScript error: resource://services-settings/Utils.sys.mjs, line 229: TypeError: NetworkError: Network request failed
+1690047186323	geckodriver	INFO	Listening on 127.0.0.1:56104
+1690047186831	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/nm/z2rl_wdx22x3t5ff64vzzdnr0000gn/T/rust_mozprofileOG0gXj"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1690047187220	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+1690047187374	Marionette	INFO	Listening on port 56116
+WebDriver BiDi listening on ws://127.0.0.1:56105
+Read port: 56116
+1690047187554	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:56105/devtools/browser/10de32e6-dda0-4f19-860e-ed7327299661
+JavaScript error: https://shop.cureskin.com/cdn/shop/t/18/assets/facets.js?v=7902196371189045711670822363, line 1: SyntaxError: redeclaration of let FacetFiltersForm
+1690047190211	Marionette	INFO	Stopped listening on port 56116
+JavaScript error: resource://services-settings/Utils.sys.mjs, line 229: TypeError: NetworkError: Network request failed
+1690047308862	geckodriver	INFO	Listening on 127.0.0.1:56694
+1690047309370	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/nm/z2rl_wdx22x3t5ff64vzzdnr0000gn/T/rust_mozprofileUpCxhU"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1690047309763	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+1690047309912	Marionette	INFO	Listening on port 56706
+WebDriver BiDi listening on ws://127.0.0.1:56695
+Read port: 56706
+1690047310096	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:56695/devtools/browser/8b62d2f7-ac8d-4c97-a3f7-da3958da07e4
+JavaScript error: https://shop.cureskin.com/cdn/shop/t/18/assets/facets.js?v=7902196371189045711670822363, line 1: SyntaxError: redeclaration of let FacetFiltersForm
+1690047312888	Marionette	INFO	Stopped listening on port 56706
+JavaScript error: resource://services-settings/Utils.sys.mjs, line 229: TypeError: NetworkError: Network request failed
+1690047360903	geckodriver	INFO	Listening on 127.0.0.1:56990
+1690047361408	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/nm/z2rl_wdx22x3t5ff64vzzdnr0000gn/T/rust_mozprofileMlTJ7t"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1690047361811	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+1690047361960	Marionette	INFO	Listening on port 57002
+WebDriver BiDi listening on ws://127.0.0.1:56991
+Read port: 57002
+1690047362138	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:56991/devtools/browser/e9d8ca17-59bd-4a20-af91-83a17105879e
+JavaScript error: https://shop.cureskin.com/cdn/shop/t/18/assets/facets.js?v=7902196371189045711670822363, line 1: SyntaxError: redeclaration of let FacetFiltersForm
+1690047365137	Marionette	INFO	Stopped listening on port 57002
+JavaScript error: resource://services-settings/Utils.sys.mjs, line 229: TypeError: NetworkError: Network request failed

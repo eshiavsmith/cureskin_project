@@ -5,7 +5,6 @@ from time import sleep
 
 @given('Open cureskin page')
 def open_cureskin(context):
-#     context.driver.get('https://shop.cureskin.com/search?q=cure')
     context.app.main_page.open_main()
 # print(main_pages.base_url)
 
@@ -37,4 +36,4 @@ def verify_price(context):
 #     # assert expected_price == actual_price, f'Error! Expected {expected_price}'
 #
 
-sleep(4)
+sleep(1)
