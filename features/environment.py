@@ -1,7 +1,10 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.service import Service
+
+from selenium.webdriver.firefox.options import Options as FirefoxOptions
 from webdriver_manager.chrome import ChromeDriverManager
+
 from selenium.webdriver.support.wait import WebDriverWait
 
 from app.application import Application
@@ -11,18 +14,31 @@ def browser_init(context):
     """
     :param context: Behave context
     """
-    driver_path = ChromeDriverManager().install()
-    service = Service(driver_path)
-    context.driver = webdriver.Chrome(service=service)
+    # driver_path = ChromeDriverManager().install()
+    # service = Service(driver_path)
+    # context.driver = webdriver.Chrome(service=service)
 
     # context.driver = webdriver.Firefox(executable_path="/Users/eshiavsmith/Desktop/cureskin_project/geckodriver")
     # context.driver = webdriver.Safari()
 
-    driver_path = ChromeDriverManager().install()
-    service = Service(driver_path)
-    options = webdriver.ChromeOptions()
+    #### CHROME HEADLESS MODE ####
+    # driver_path = ChromeDriverManager().install()
+    # service = Service(driver_path)
+    # options = webdriver.ChromeOptions()
+    # options.add_argument('--headless')
+    # context.driver = webdriver.Chrome(
+    #     chrome_options=options,
+    #     service=service
+    # )
+
+    #### FIREFOX HEADLESS MODE ####
+    # object of FirefoxOptions
+    options = webdriver.FirefoxOptions()
+
+    # set options.headless to True
+    options.headless = True
     options.add_argument('--headless')
-    context.driver = webdriver.Chrome(chrome_options=options, service=service)
+    context.driver = webdriver.Firefox(executable_path="/Users/eshiavsmith/Desktop/cureskin_project/geckodriver", options=options)
 
     context.driver.maximize_window()
     context.driver.implicitly_wait(4)

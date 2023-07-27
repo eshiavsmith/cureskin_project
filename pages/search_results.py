@@ -3,8 +3,8 @@ from pages.base_page import Page
 
 
 class SearchResultsPage(Page):
-    COUNT = (By.CSS_SELECTOR, "#ProductCount")
+    RESULTS_COUNT = (By.CSS_SELECTOR, "#ProductCount")
 
-    def verify_results(self, expected_count):
-        actual_count = self.driver.find_element(*self.COUNT).text
-        assert expected_count == actual_count, f' Expected {expected_count} search results but got {actual_count}'
+    def verify_count(self, expected_count):
+        self.verify_element_text(expected_count, *self.RESULTS_COUNT)
+        # assert expected_count in actual_count, f' Expected {expected_count} search results but got {actual_count}'
