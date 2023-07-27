@@ -52,6 +52,19 @@ def browser_init(context, test_name):
     # context.driver = webdriver.Firefox(executable_path="/Users/eshiavsmith/Desktop/cureskin_project/geckodriver", options=options)
     #############################################
 
+    #### BROWSERSTACK ####
+    desired_cap = {
+        'browser': 'Firefox',
+        'os_version': '11g',
+        'os': 'Windows',
+        'name': test_name
+    }
+    bs_user = 'eshiasmith_bqH79Y'
+    bs_key = 'xSUuBdnUumwSqUULtcsg'
+    url = f'http://{bs_user}:{bs_key}@hub-cloud.browserstack.com/wd/hub'
+    context.driver = webdriver.Remote(url, desired_capabilities=desired_cap)
+    #############################################
+
     context.driver.maximize_window()
     context.driver.implicitly_wait(4)
     context.driver.wait = WebDriverWait(context.driver, 5)
