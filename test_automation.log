@@ -1,0 +1,7 @@
+2023-07-27 14:35:21,740 - support.logger - INFO - Started scenario: Search results page
+2023-07-27 14:35:28,484 - support.logger - INFO - Started step: <given "Open cureskin page">
+2023-07-27 14:35:28,484 - support.logger - INFO - Opening URL: https://shop.cureskin.com/search?q=cure
+2023-07-27 14:35:31,303 - support.logger - INFO - Started step: <then "Verify search results count is 19 results found for “cure”">
+2023-07-27 14:35:31,779 - support.logger - INFO - Started step: <then "Verify first results have name">
+2023-07-27 14:35:31,844 - support.logger - INFO - Started step: <then "Verify first results have image">
+2023-07-27 14:35:36,584 - support.logger - INFO - Started step: <then "Verify first results have price">
