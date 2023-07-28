@@ -31,7 +31,7 @@ def browser_init(context, test_name):
     ### FIREFOX BROWSER ###
     # driver_path = GeckoDriverManager().install()
     # service = FirefoxService(driver_path)
-    # context.driver = webdriver.Firefox(executable_path="/Users/eshiavsmith/Desktop/cureskin_project/geckodriver")
+    context.driver = webdriver.Firefox(executable_path="/Users/eshiavsmith/Desktop/cureskin_project/geckodriver")
     #############################################
 
     #### CHROME HEADLESS MODE ####
@@ -66,23 +66,32 @@ def browser_init(context, test_name):
     #     'browserName': 'Firefox',
     #     'name': test_name
     # }
-    options = FirefoxOptions()
-    caps = {
-        "os": "OS X",
-        "osVersion": "Catalina",
-        "buildName": "firefoxprofile- node",
-        "sessionName": test_name,
-        "local": "false",
-    }
-    options.set_capability('bstack:options', caps)
-    options.set_capability('browserVersion', '95')
-    options.set_capability('browserName', 'Firefox')
-    bs_user = 'eshiasmith_bqH79Y'
-    bs_key = 'xSUuBdnUumwSqUULtcsg'
-    url = f'http://{bs_user}:{bs_key}@hub-cloud.browserstack.com/wd/hub'
-    context.driver = webdriver.Remote(url, options=options)
+    # options = FirefoxOptions()
+    # caps = {
+    #     "os": "OS X",
+    #     "osVersion": "Catalina",
+    #     "buildName": "firefoxprofile- node",
+    #     "sessionName": test_name,
+    #     "local": "false",
+    # }
+    # options.set_capability('bstack:options', caps)
+    # options.set_capability('browserVersion', '95')
+    # options.set_capability('browserName', 'Firefox')
+    # bs_user = 'eshiasmith_bqH79Y'
+    # bs_key = 'xSUuBdnUumwSqUULtcsg'
+    # url = f'http://{bs_user}:{bs_key}@hub-cloud.browserstack.com/wd/hub'
+    # context.driver = webdriver.Remote(url, options=options)
 
     #############################################
+
+
+### CHROME EMULATOR #####
+
+    mobile_emulation = {"deviceName": "iPhone 12 Pro"}
+    options = webdriver.ChromeOptions()
+    options.add_argument('--mobile emulator')
+    options.add_experimental_option("mobileEmulation", mobile_emulation)
+    context.driver = webdriver.Chrome(options=options)
 
     context.driver.maximize_window()
     context.driver.implicitly_wait(4)

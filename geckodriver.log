@@ -222,3 +222,77 @@ JavaScript error: https://shop.cureskin.com/cdn/shop/t/18/assets/facets.js?v=790
 1690552918066	Marionette	INFO	Stopped listening on port 64303
 JavaScript error: resource://gre/modules/UrlClassifierListManager.sys.mjs, line 720: TypeError: this.tablesData[table] is undefined
 JavaScript error: resource://services-settings/Utils.sys.mjs, line 229: TypeError: NetworkError: Network request failed
+1690577699311	geckodriver	INFO	Listening on 127.0.0.1:60355
+1690577699819	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/nm/z2rl_wdx22x3t5ff64vzzdnr0000gn/T/rust_mozprofileKzbHWP"
+2023-07-28 16:55:26.749 firefox-bin[22724:754000] Unable to install helper!
+WebDriver BiDi listening on ws://127.0.0.1:60356
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:60356/devtools/browser/6c1e2262-5068-44f6-a18d-70f42c2d78da
+1690577794863	geckodriver	INFO	Listening on 127.0.0.1:60855
+1690577795371	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/nm/z2rl_wdx22x3t5ff64vzzdnr0000gn/T/rust_mozprofileWrlbP2"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1690577795886	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+1690577796132	Marionette	INFO	Listening on port 60870
+WebDriver BiDi listening on ws://127.0.0.1:60856
+Read port: 60870
+1690577796360	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:60856/devtools/browser/58486869-843f-4194-9751-52116db77e11
+1690577797852	Marionette	INFO	Stopped listening on port 60870
+JavaScript error: resource://services-settings/Utils.sys.mjs, line 229: TypeError: NetworkError: Network request failed
+1690577865640	geckodriver	INFO	Listening on 127.0.0.1:61297
+1690577866146	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/nm/z2rl_wdx22x3t5ff64vzzdnr0000gn/T/rust_mozprofileLzmCFo"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1690577866553	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+1690577866703	Marionette	INFO	Listening on port 61309
+WebDriver BiDi listening on ws://127.0.0.1:61298
+Read port: 61309
+1690577866881	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:61298/devtools/browser/12c818f8-8a05-479d-934e-bb5dcc39af16
+1690578025263	geckodriver	INFO	Listening on 127.0.0.1:62088
+1690578025771	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/nm/z2rl_wdx22x3t5ff64vzzdnr0000gn/T/rust_mozprofile7IC40Z"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1690578026172	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+1690578026327	Marionette	INFO	Listening on port 62101
+WebDriver BiDi listening on ws://127.0.0.1:62089
+Read port: 62101
+1690578026503	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:62089/devtools/browser/32129b0f-22b4-4409-a70b-69b63d3c670e
+1690578556680	geckodriver	INFO	Listening on 127.0.0.1:64526
+1690578557180	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/nm/z2rl_wdx22x3t5ff64vzzdnr0000gn/T/rust_mozprofile0QYOXn"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1690578557570	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+1690578557799	Marionette	INFO	Listening on port 64539
+Read port: 64539
+WebDriver BiDi listening on ws://127.0.0.1:64527
+1690578557843	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:64527/devtools/browser/7a91c8f1-8d26-48b2-8d5a-421d5fde6650
+1690578648367	geckodriver	INFO	Listening on 127.0.0.1:65036
+1690578648878	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/nm/z2rl_wdx22x3t5ff64vzzdnr0000gn/T/rust_mozprofilew7spmj"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1690578649278	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+1690578649432	Marionette	INFO	Listening on port 65048
+WebDriver BiDi listening on ws://127.0.0.1:65037
+Read port: 65048
+1690578649615	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:65037/devtools/browser/653ff2d5-61a0-4eda-9ae8-0f242a9a69f3
+1690578669091	geckodriver	INFO	Listening on 127.0.0.1:65246
+1690578669605	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/nm/z2rl_wdx22x3t5ff64vzzdnr0000gn/T/rust_mozprofile74JYiu"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1690578670002	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+1690578670230	Marionette	INFO	Listening on port 65259
+WebDriver BiDi listening on ws://127.0.0.1:65247
+Read port: 65259
+1690578670415	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:65247/devtools/browser/bc92fd7c-2419-4165-b752-30c02ab6870c

@@ -164,3 +164,50 @@
 2023-07-28 12:21:59,943 - support.logger - INFO - Started step: <then "Verify first results have name">
 2023-07-28 12:22:00,126 - support.logger - INFO - Started step: <then "Verify first results have image">
 2023-07-28 12:22:06,449 - support.logger - INFO - Started step: <then "Verify first results have price">
+2023-07-28 16:32:58,901 - support.logger - INFO - Started scenario: Search results page
+2023-07-28 16:35:36,619 - support.logger - INFO - Started scenario: Search results page
+2023-07-28 16:36:07,816 - support.logger - INFO - Started step: <given "Open cureskin page">
+2023-07-28 16:36:07,816 - support.logger - INFO - Opening URL: https://shop.cureskin.com/search?q=cure
+2023-07-28 16:36:09,240 - support.logger - INFO - Started step: <then "Verify search results count is 19 results found for “cure”">
+2023-07-28 16:36:09,260 - support.logger - INFO - Started step: <then "Verify first results have name">
+2023-07-28 16:36:09,266 - support.logger - INFO - Started step: <then "Verify first results have image">
+2023-07-28 16:36:09,479 - support.logger - INFO - Started step: <then "Verify first results have price">
+2023-07-28 16:53:59,025 - support.logger - INFO - Started scenario: Search results page
+2023-07-28 16:54:33,621 - support.logger - INFO - Started scenario: Search results page
+2023-07-28 16:54:59,280 - support.logger - INFO - Started scenario: Search results page
+2023-07-28 16:56:34,851 - support.logger - INFO - Started scenario: Search results page
+2023-07-28 16:57:45,618 - support.logger - INFO - Started scenario: Search results page
+2023-07-28 16:57:49,569 - support.logger - INFO - Started step: <given "Open cureskin page">
+2023-07-28 16:57:49,569 - support.logger - INFO - Opening URL: https://shop.cureskin.com/search?q=cure
+2023-07-28 16:57:50,961 - support.logger - INFO - Started step: <then "Verify search results count is 19 results found for “cure”">
+2023-07-28 16:57:50,984 - support.logger - INFO - Started step: <then "Verify first results have name">
+2023-07-28 16:57:50,990 - support.logger - INFO - Started step: <then "Verify first results have image">
+2023-07-28 16:57:51,263 - support.logger - INFO - Started step: <then "Verify first results have price">
+2023-07-28 17:00:25,240 - support.logger - INFO - Started scenario: Search results page
+2023-07-28 17:00:37,909 - support.logger - INFO - Started step: <given "Open cureskin page">
+2023-07-28 17:00:37,909 - support.logger - INFO - Opening URL: https://shop.cureskin.com/search?q=cure
+2023-07-28 17:00:39,398 - support.logger - INFO - Started step: <then "Verify search results count is 19 results found for “cure”">
+2023-07-28 17:00:39,416 - support.logger - INFO - Started step: <then "Verify first results have name">
+2023-07-28 17:00:39,428 - support.logger - INFO - Started step: <then "Verify first results have image">
+2023-07-28 17:00:39,716 - support.logger - INFO - Started step: <then "Verify first results have price">
+2023-07-28 17:09:16,649 - support.logger - INFO - Started scenario: Search results page
+2023-07-28 17:09:20,930 - support.logger - INFO - Started step: <given "Open cureskin page">
+2023-07-28 17:09:20,930 - support.logger - INFO - Opening URL: https://shop.cureskin.com/search?q=cure
+2023-07-28 17:09:22,447 - support.logger - INFO - Started step: <then "Verify search results count is 19 results found for “cure”">
+2023-07-28 17:09:22,467 - support.logger - INFO - Started step: <then "Verify first results have name">
+2023-07-28 17:09:22,473 - support.logger - INFO - Started step: <then "Verify first results have image">
+2023-07-28 17:09:22,741 - support.logger - INFO - Started step: <then "Verify first results have price">
+2023-07-28 17:10:48,345 - support.logger - INFO - Started scenario: Search results page
+2023-07-28 17:10:52,466 - support.logger - INFO - Started step: <given "Open cureskin page">
+2023-07-28 17:10:52,466 - support.logger - INFO - Opening URL: https://shop.cureskin.com/search?q=cure
+2023-07-28 17:10:53,844 - support.logger - INFO - Started step: <then "Verify search results count is 19 results found for “cure”">
+2023-07-28 17:10:53,867 - support.logger - INFO - Started step: <then "Verify first results have name">
+2023-07-28 17:10:53,873 - support.logger - INFO - Started step: <then "Verify first results have image">
+2023-07-28 17:10:54,149 - support.logger - INFO - Started step: <then "Verify first results have price">
+2023-07-28 17:11:09,076 - support.logger - INFO - Started scenario: Search results page
+2023-07-28 17:11:13,201 - support.logger - INFO - Started step: <given "Open cureskin page">
+2023-07-28 17:11:13,201 - support.logger - INFO - Opening URL: https://shop.cureskin.com/search?q=cure
+2023-07-28 17:11:14,303 - support.logger - INFO - Started step: <then "Verify search results count is 19 results found for “cure”">
+2023-07-28 17:11:14,322 - support.logger - INFO - Started step: <then "Verify first results have name">
+2023-07-28 17:11:14,328 - support.logger - INFO - Started step: <then "Verify first results have image">
+2023-07-28 17:11:14,624 - support.logger - INFO - Started step: <then "Verify first results have price">
