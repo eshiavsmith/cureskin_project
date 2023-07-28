@@ -11,7 +11,7 @@ from support.logger import logger
 
 
 # Allure command:
-#python3 -m behave -f allure_behave.formatter:AllureFormatter -o test_results/ features/tests/cureskin_test1.feature
+# python3 -m behave -f allure_behave.formatter:AllureFormatter -o test_results/ features/tests/cureskin_test1.feature
 
 def browser_init(context, test_name):
     """
@@ -84,12 +84,11 @@ def browser_init(context, test_name):
 
     #############################################
 
-
-### CHROME EMULATOR #####
+    ### CHROME EMULATOR #####
 
     mobile_emulation = {"deviceName": "iPhone 12 Pro"}
     options = webdriver.ChromeOptions()
-    options.add_argument('--mobile emulator')
+    options.add_argument('--mobile emulator={0}'.format('iPhone_12_Pro'))
     options.add_experimental_option("mobileEmulation", mobile_emulation)
     context.driver = webdriver.Chrome(options=options)
 
