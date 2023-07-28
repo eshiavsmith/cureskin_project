@@ -174,3 +174,51 @@ JavaScript error: https://shop.cureskin.com/cdn/shop/t/18/assets/facets.js?v=790
 1690475940781	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
 1690475940950	Marionette	INFO	Stopped listening on port 60291
 JavaScript error: resource://services-settings/Utils.sys.mjs, line 229: TypeError: NetworkError: Network request failed
+1690551799665	geckodriver	INFO	Listening on 127.0.0.1:59576
+1690551799769	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/nm/z2rl_wdx22x3t5ff64vzzdnr0000gn/T/rust_mozprofileuoNNzz"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1690551800804	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+1690551801109	Marionette	INFO	Listening on port 59595
+Read port: 59595
+WebDriver BiDi listening on ws://127.0.0.1:59577
+1690551801193	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:59577/devtools/browser/91048530-6f31-49c9-9186-77bdfd4d04ce
+JavaScript error: https://shop.cureskin.com/cdn/shop/t/18/assets/facets.js?v=7902196371189045711670822363, line 1: SyntaxError: redeclaration of let FacetFiltersForm
+1690551805308	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1690551805439	Marionette	INFO	Stopped listening on port 59595
+JavaScript error: resource://services-settings/Utils.sys.mjs, line 229: TypeError: NetworkError: Network request failed
+1690552262646	geckodriver	INFO	Listening on 127.0.0.1:61592
+1690552263154	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/nm/z2rl_wdx22x3t5ff64vzzdnr0000gn/T/rust_mozprofileW2n7ib"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1690552263573	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+1690552263724	Marionette	INFO	Listening on port 61604
+WebDriver BiDi listening on ws://127.0.0.1:61593
+Read port: 61604
+1690552263894	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:61593/devtools/browser/71d7176f-4595-4bd3-a3f7-77a6ae422818
+JavaScript error: https://shop.cureskin.com/cdn/shop/t/18/assets/facets.js?v=7902196371189045711670822363, line 1: SyntaxError: redeclaration of let FacetFiltersForm
+1690552266887	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1690552267074	Marionette	INFO	Stopped listening on port 61604
+JavaScript error: resource://services-settings/Utils.sys.mjs, line 229: TypeError: NetworkError: Network request failed
+1690552914219	geckodriver	INFO	Listening on 127.0.0.1:64290
+1690552914728	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/nm/z2rl_wdx22x3t5ff64vzzdnr0000gn/T/rust_mozprofileWdeKqg"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1690552915032	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag -headless\n"
+1690552915217	Marionette	INFO	Listening on port 64303
+WebDriver BiDi listening on ws://127.0.0.1:64291
+Read port: 64303
+1690552915336	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+DevTools listening on ws://127.0.0.1:64291/devtools/browser/6f0e3102-cc34-43ab-b0ac-e2b980391b85
+JavaScript error: https://shop.cureskin.com/cdn/shop/t/18/assets/facets.js?v=7902196371189045711670822363, line 1: SyntaxError: redeclaration of let FacetFiltersForm
+1690552917941	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1690552918066	Marionette	INFO	Stopped listening on port 64303
+JavaScript error: resource://gre/modules/UrlClassifierListManager.sys.mjs, line 720: TypeError: this.tablesData[table] is undefined
+JavaScript error: resource://services-settings/Utils.sys.mjs, line 229: TypeError: NetworkError: Network request failed

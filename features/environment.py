@@ -1,19 +1,22 @@
+import allure
+from allure_commons.types import AttachmentType
 from selenium import webdriver
-from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.service import Service
-
-from selenium.webdriver.firefox.options import Options as FirefoxOptions
 from webdriver_manager.chrome import ChromeDriverManager
-
+from selenium.webdriver.firefox.options import Options as FirefoxOptions
 from selenium.webdriver.support.wait import WebDriverWait
 
 from app.application import Application
 from support.logger import logger
 
 
+# Allure command:
+#python3 -m behave -f allure_behave.formatter:AllureFormatter -o test_results/ features/tests/cureskin_test1.feature
+
 def browser_init(context, test_name):
     """
     :param context: Behave context
+    :param test_name: scenario.name
     """
     ### SAFARI BROWSER ###
     # context.driver = webdriver.Safari()
@@ -23,6 +26,12 @@ def browser_init(context, test_name):
     # driver_path = ChromeDriverManager().install()
     # service = Service(driver_path)
     # context.driver = webdriver.Chrome(service=service)
+    #############################################
+
+    ### FIREFOX BROWSER ###
+    # driver_path = GeckoDriverManager().install()
+    # service = FirefoxService(driver_path)
+    # context.driver = webdriver.Firefox(executable_path="/Users/eshiavsmith/Desktop/cureskin_project/geckodriver")
     #############################################
 
     #### CHROME HEADLESS MODE ####
@@ -36,14 +45,8 @@ def browser_init(context, test_name):
     # )
     #############################################
 
-    ### FIREFOX BROWSER ###
-    # driver_path = GeckoDriverManager().install()
-    # service = FirefoxService(driver_path)
-    # context.driver = webdriver.Firefox(executable_path="/Users/eshiavsmith/Desktop/cureskin_project/geckodriver")
-    #############################################
-
     #### FIREFOX HEADLESS MODE ####
-    # object of FirefoxOptions
+    # # object of FirefoxOptions
     # options = webdriver.FirefoxOptions()
     #
     # # set options.headless to True
@@ -53,16 +56,32 @@ def browser_init(context, test_name):
     #############################################
 
     #### BROWSERSTACK ####
-    desired_cap = {
-        'browser': 'Firefox',
-        'os_version': '11g',
-        'os': 'Windows',
-        'name': test_name
+    # context.driver.execute_script(
+    #     'browserstack_executor:{"action": "setSessionName", "arguments": {"name": " ' + scenario.name + ' " }}')
+
+    # desired_cap = {
+    #     'os': 'Windows',
+    #     'osVersion': '11',
+    #     'browserVersion': 'latest',
+    #     'browserName': 'Firefox',
+    #     'name': test_name
+    # }
+    options = FirefoxOptions()
+    caps = {
+        "os": "OS X",
+        "osVersion": "Catalina",
+        "buildName": "firefoxprofile- node",
+        "sessionName": test_name,
+        "local": "false",
     }
+    options.set_capability('bstack:options', caps)
+    options.set_capability('browserVersion', '95')
+    options.set_capability('browserName', 'Firefox')
     bs_user = 'eshiasmith_bqH79Y'
     bs_key = 'xSUuBdnUumwSqUULtcsg'
     url = f'http://{bs_user}:{bs_key}@hub-cloud.browserstack.com/wd/hub'
-    context.driver = webdriver.Remote(url, desired_capabilities=desired_cap)
+    context.driver = webdriver.Remote(url, options=options)
+
     #############################################
 
     context.driver.maximize_window()
@@ -85,7 +104,21 @@ def before_step(context, step):
 
 def after_step(context, step):
     if step.status == 'failed':
+        logger.error(f'Step failed: {step}')
         print('\nStep failed: ', step)
+        # Mark test case as FAILED on BrowserStack:
+        # Documentation: https://www.browserstack.com/docs/automate/selenium/view-test-results/mark-tests-as-pass-fail
+        context.driver.execute_script(
+            'browserstack_executor: {"action": "setSessionStatus", "arguments": '
+            '{"status":"failed", "reason": "Step failed"}}'
+        )
+
+        # Attach a screenshot to Allure report in case the step fails:
+        # allure.attach(
+        #     context.driver.get_screenshot_as_png(),
+        #     name=f'{step.name}.png',
+        #     attachment_type=AttachmentType.PNG
+        # )
 
 
 def after_scenario(context, feature):
